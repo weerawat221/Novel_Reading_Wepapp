@@ -1,0 +1,67 @@
+/* Auth Styles */
+.auth-container {
+  min-height: calc(100vh - 70px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.auth-card {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-card h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #2c3e50;
+}
+
+.auth-card form {
+  margin-bottom: 20px;
+}
+
+.auth-card .form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.auth-card .form-group select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 1rem;
+  background-color: white;
+  cursor: pointer;
+}
+
+.auth-card .btn-primary {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.1rem;
+}
+
+.auth-card p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.auth-card a {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.auth-card a:hover {
+  text-decoration: underline;
+}

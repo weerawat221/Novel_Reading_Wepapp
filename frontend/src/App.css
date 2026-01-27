@@ -1,0 +1,87 @@
+/* App Container */
+#app {
+  min-height: 100vh;
+  background-color: #f5f7fa;
+}
+
+/* Main App Layout */
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main Content */
+main {
+  flex: 1;
+  background-color: #f5f7fa;
+}
+
+/* Router Main Content */
+Routes {
+  display: flex;
+  flex: 1;
+}
+
+/* Default Page Styles */
+.page {
+  width: 100%;
+}
+
+/* Loading State */
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.loading::after {
+  content: '...';
+  animation: dots 1.5s steps(4, end) infinite;
+}
+
+@keyframes dots {
+  0%, 20% {
+    content: '.';
+  }
+  40% {
+    content: '..';
+  }
+  60% {
+    content: '...';
+  }
+}
+
+/* Error Messages */
+.error-message {
+  background-color: #fee;
+  color: #c33;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border-left: 4px solid #c33;
+}
+
+.success-message {
+  background-color: #efe;
+  color: #3c3;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  border-left: 4px solid #3c3;
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 50px 20px;
+  color: #999;
+}
+
+.empty-state h2 {
+  color: #666;
+  margin-bottom: 10px;
+}
