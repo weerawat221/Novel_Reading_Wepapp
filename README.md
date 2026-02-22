@@ -1,6 +1,7 @@
 # 📚 Novel Reading Web App
-> **Note:** Personal student project.
+
 A web application for reading and creating novels. 
+> **Note:** Personal student project.
 
 ## 🛠 Prerequisites
 
